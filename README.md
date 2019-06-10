@@ -1,18 +1,13 @@
-# ETL-Project
+# ETL-Unemployment
 
 Extraction
 
-We used 3 datasets from the public platform Kaggle and Data World. All of our data was based on county through all the States ranging over various years from 2010 to 2015. These were the most recent ones we could find. The sources for our dataset are as follows
- 
-•	Diversity Index from Kaggle.
-•	Unemployment from Kaggle.
-•	Median Income by county from Data World.
+Three data sets were used from 2 sources ( Kaggle and Data World). Counties from different States throughout the United States were analayzed over the period of 5 years from 2010-2015.
 
 Transformation
 
-Our first steps in cleaning up the datasets involved figuring out which variables were not relevant. 
+Data cleaning was performed to only get data required for the analysis.
 
 Load
 
-The last step was to transfer our final output into a Database. We created a database and respective tables to match the columns from the final Panda’s Data Frame using MYSQL and then connected to the database using SQLAlchemy and loaded the result. 
-# ETL_Project_Unemployment_Personal
+All the data was loaded into a data base. Required tables were matched to the relevant columns. Finally SQLAlchemy was used to connect Database and load the result.
